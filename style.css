@@ -179,7 +179,7 @@ h2.title {
 }
 
 .add-transaction-panel {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -214,33 +214,32 @@ h2.title {
 .add-transaction-panel input,
 .add-transaction-panel select,
 .add-transaction-panel button {
-    padding: 10px 20px;
-    border: 1px solid black;
-    border-radius: 5px;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 .add-transaction-panel input,
 .add-transaction-panel select,
 .add-transaction-panel option {
-    font-size: 18px;
-} 
+  font-size: 18px;
+}
 
 .add-transaction-panel .panel-buutons {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 .add-transaction-panel button {
-    margin: 20px 30px;
-    font-size: 15px 40px;
-    color: #fff;
-    border: 1px solid #fff;
-    background: none;
-    cursor: pointer;
-    transition: background-color .3s;
-
+  margin: 20px 30px;
+  font-size: 15px 40px;
+  color: #fff;
+  border: 1px solid #fff;
+  background: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .add-transaction-panel button:hover {
-    background-color: rgb(25, 27, 51);
+  background-color: rgb(25, 27, 51);
 }
